@@ -9,5 +9,6 @@ with open("text.csv") as f1:
     data = list(csv.reader(f1))
     data = data[1:]
 for d in data:
-    pyautogui.write(d[0]+" - "+d[1])
-    pyautogui.press("enter")
+    print(d)
+##    pyautogui.write(d[0]+" - "+d[1])
+##    pyautogui.press("enter")
